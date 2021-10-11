@@ -1,3 +1,4 @@
+
 a = int(input("Enter the Numerator "))
 b = int(input("Enter the Denominator "))
 res = 0
@@ -6,3 +7,4 @@ try:
     print(res)
 except:
     print('Division by Zero not possible')
+
