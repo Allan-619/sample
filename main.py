@@ -1,4 +1,10 @@
-num1 = 10
-num2 = 5
-div = 10//5
-print("output = "+ div)
+
+a = int(input("Enter the Numerator "))
+b = int(input("Enter the Denominator "))
+res = 0
+try:
+    res = a/b
+    print(res)
+except:
+    print('Division by Zero not possible')
+
